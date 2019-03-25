@@ -1,0 +1,182 @@
+body,html,div,ul,li,p,h1,h2,h3,h4,h5,h6,img{
+    margin: 0px;
+    padding: 0px
+
+}
+html{
+    background-color: rgb(241, 239, 239);
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.box{
+    width:100%;
+    height:100%
+}
+.box-main{
+    height:auto;
+    width:1200px;
+    margin:0 auto;
+    min-width:1200px;
+}
+.box-top{
+    width:335px;
+    height:508px;
+    margin:100px auto;
+    position: relative;
+}
+.box-top h3{
+    font-size:30px;
+    font-weight: 400;
+    text-align: center;
+}
+.box-top h5{
+    font-weight: 300px;
+    color:#999;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 35px;
+
+}
+#top_text1,#top_text2,#top_text3{
+    height: 38px;
+    width: 335px;
+border-radius: 5px;
+text-indent: 3em;
+border:1px solid #999;
+margin:15px 0px;
+
+
+}
+
+.box-top form img:nth-of-type(1){
+position: absolute;
+width:20px;
+height: 20px;
+top: 130px;
+left: 10px;
+}
+.box-top form img:nth-of-type(2){
+    position: absolute;
+    width:20px;
+    height: 20px;
+    top: 200px;
+    left: 10px;
+    }
+    .box-top form img:nth-of-type(3){
+        position: absolute;
+        width:20px;
+        height: 20px;
+        top: 274px;
+        left: 10px;
+        }
+.formtext{
+    width:100%;
+    height:38px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color:#666;
+}
+.box-top button{
+    width:100%;
+    height: 38px;
+    background-color: #009688;
+    border:none;
+    border-radius: 10px;
+    letter-spacing: 8px;
+    color:white;
+}
+.social{
+    margin-top: 30px;
+    width:100%;
+    height: 43px;
+    line-height: 43px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-QQ{
+    color:skyblue;
+    font-size: 28px !important;
+
+}
+.icon-weixin{
+    color:rgb(42, 221, 51);
+    font-size: 28px !important;
+}
+.icon-weibo-copy{
+    color:rgb(214, 25, 25);
+    font-size: 28px !important;
+}
+.box-buttom{
+    width:335px;
+    height:38px;
+    margin:260px auto 30px auto;
+   text-align: center;
+}
+.box-buttom div{
+    width:280px;
+margin:15px auto 0 auto;
+font-size: 14px;
+color:#666;
+
+    display: flex;
+    justify-content: space-around
+}
+#popup{
+    width:182px;
+    height: 55px;
+    border:1px solid #666;
+    text-align: center;
+    line-height: 55px;
+    background-color: white;
+    position: absolute;
+    left: 80px;
+    top: 350px;
+    display: none;
+    z-index: 111111;
+    animation: aaa 1s;
+}
+.icon-bukaixin{
+    color:red;
+    font-weight: bold;
+    font-size: 30px !important;
+    vertical-align: -5px;
+  
+}
+@keyframes aaa{
+    0%{
+        left:60px;
+    }
+    10%{
+        left:100px;
+    }
+    20%{
+        left:60px;    
+    }
+    30%{
+        left:100px;
+    }
+    40%{
+        left: 60px;
+    }
+    50%{
+        left:100px;
+    }
+    60%{
+        left:60px;
+    }
+    70%{
+        left:100px;    
+    }
+    80%{
+        left:60px;
+    }
+    90%{
+        left: 100px;
+    }
+    100%{
+        display: none;
+    }
+}
