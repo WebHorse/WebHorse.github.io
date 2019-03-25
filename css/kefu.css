@@ -1,0 +1,160 @@
+body,div,a,p,ul,li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+.box{
+    width: 100%;
+}
+.top{
+    width: 100%;
+    height: 25rem;
+    background: url(../image/fenxiang.png)
+   no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.txt{
+    position: absolute;
+    right: 0;
+    top: 4rem;
+    background:rgba(0, 0, 0, 0.1);
+    border-top-left-radius:1rem;
+    border-bottom-left-radius:1rem;
+    width: 3rem;
+    height: 1rem;
+    font-size: 0.4rem;
+    color: white;
+    text-align: center;
+}
+.main{
+    background: red;
+}
+.main-top{
+    text-align: center;
+    font-size: 0.6rem;
+    color: #ffeca0;
+}
+.main button{
+    background-image: linear-gradient(180deg,#fcfac4,#f4d170 41%,#e4b043);
+    width: 80%;;
+    height: 2.5rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    color: #561b04;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+.rich{
+    margin-top: 1rem;
+    display: block;
+    height: 2rem;
+    text-decoration: none;
+    color: #ffeca0;
+    text-align: center;
+    line-height: 2rem;
+}
+.icon-gonglve{
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #ffeca0;
+}
+.rich span{
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 0.8rem;
+}
+.award{
+    width: 90%;
+    margin: 0 auto;
+}
+.award-top{
+    padding: 0 1rem;
+}
+.award-top{
+    display: flex;
+    height: 2rem;
+    line-height: 2rem;  
+    justify-content: space-between;
+    line-height: 1rem;
+    background: #f9f9f9;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+.award-top span{
+ font-weight: 700;
+ font-size: 0.8rem;
+ line-height: 2rem; 
+}
+.award-top div{
+    color: #999;
+    font-size: 0.8rem;
+    line-height: 2rem; 
+}
+.award ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+   
+}
+.award li{
+    padding-top: 1rem;
+    background: white;
+    width: 25%;
+    height: 3rem;
+   line-height: 1rem;
+    list-style: none;
+    text-align: center;
+    overflow: hidden;
+}
+.first{
+    font-weight: 700;
+    color: red;
+    font-size: 1.2rem;
+}
+.two{
+    color: red;
+    font-size: 0.6rem;
+}
+.three{
+    display: block;
+    font-size: 0.2rem;
+    color: #666;
+}
+.money{
+    margin-top: 1rem;
+    background: white;
+    height: 3rem;
+    line-height: 3rem;
+    border-radius: 0.2rem;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.money span{
+    color: #333;
+    font-size: 0.8rem;
+}
+.money span strong{
+ font-size: 1.2rem;
+ color: red;
+}
+.money span span{
+    color: red;
+}
+.money-right{
+    color: #333;
+    font-weight: 400;
+    margin-right: 1rem;
+}
+.bottom{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    color: #ffeca0;
+    text-align: center;
+    font-size: 0.4rem;
+}
